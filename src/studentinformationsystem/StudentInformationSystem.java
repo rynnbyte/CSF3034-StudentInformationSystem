@@ -9,8 +9,8 @@ public class StudentInformationSystem {
 
         int mark1 = 85;
         int mark2 = 90;
-
-        int total = mark1 + mark2;
+        int mark3 = 70;
+        int total = mark1 + mark2 + mark3;
 
         System.out.println("=== Student Information System ===");
         System.out.println("Student Name: " + studentName);
@@ -18,6 +18,7 @@ public class StudentInformationSystem {
 
         System.out.println("Mark 1: " + mark1);
         System.out.println("Mark 2: " + mark2);
+        System.out.println("Mark 3: " + mark3);
         System.out.println("Total Mark: " + total);
 
         if (total >= 160) {
